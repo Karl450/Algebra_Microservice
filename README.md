@@ -11,8 +11,8 @@ This project was given to me by Jason Rudland.
 
 ### Installation
 ```
-git clone url
-cd PROJECT_NAME
+git clone https://github.com/Karl450/Algebra_Microservice.git
+cd Algebra_Microservice
 npm i
 ```
 ### Use dirrectly within browser
@@ -39,7 +39,7 @@ NOTE: Heroku shut down automaticaly when is it no longer in use and data is not 
 `http://localhost:3000/setExpression?expr=(5*4+3*2)-x`
 
 *This link will substitute the chosen expression and will return the result once all unknown variables are replace*
-`http://localhost:3000/substituteVariable?key=x&value=1&uid=E47` <- *Sets value for variable for specific expression*
+`http://localhost:3000/substituteVariable?key=x&value=1&uid=E47`
 
 ### Testing
 `npm test`
